@@ -14,16 +14,16 @@ html {
 .container {
 	background-color: rgb(255, 255, 255);
 	/* box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.07); */
-	height: 370px;
-	width: 950px;
-	border-radius: 11px;
+	height: 395px;
+	width: 1000px;
+	border-radius: 10px;
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	padding: 12px 20px;
+	padding: 10px 20px;
 	display: flex;
 	border: 1px solid rgba(0, 0, 0, 0.2);
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .sequencer {
@@ -285,4 +285,3 @@ input[type=range]:focus::-ms-fill-lower {
 input[type=range]:focus::-ms-fill-upper {
 	background: #EDEDED;
 }
-
