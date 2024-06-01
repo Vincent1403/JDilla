@@ -1,4 +1,4 @@
-const rowsx = document.querySelector(".sequencer").children;
+const rows = document.querySelector(".sequencer").children;
 
 const kick = new Audio("https://raw.githubusercontent.com/kucerajacob/DRUM-SEQUENCER/master/audio/kick.mp3"),
 	clap = new Audio("https://raw.githubusercontent.com/kucerajacob/DRUM-SEQUENCER/master/audio/clap.mp3"),
@@ -101,7 +101,7 @@ rowLoop = () => {
 	setTimeout(function () {
 		i++;
 
-		if (i === rowsx.length) {
+		if (i === rows.length) {
 			i = 0;
 			document.querySelector(".d16").childNodes[1].classList.remove("row-highlight");
 			document.querySelector(".d16").childNodes[3].classList.remove("row-highlight");
