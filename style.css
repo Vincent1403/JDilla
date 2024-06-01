@@ -19,7 +19,7 @@ html {
 	border-radius: 10px;
 	position: absolute;
 	padding: 10px 20px;
-	display: flex;
+	display: absolute;
 	border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
