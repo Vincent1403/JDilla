@@ -45,7 +45,6 @@ html {
 }
 
 .drum-name {
-	font-weight: bold;
 	font-size: 2.134vw;
 	letter-spacing: 0vw;
 	line-height: 4.878vw;
@@ -132,7 +131,6 @@ html {
 }
 
 #clear-track {
-	font-weight: bold;
 	color: rgba(0, 0, 0,);
 	padding: 1.646vw 1.463vw;
 	border-radius: 0vw;
